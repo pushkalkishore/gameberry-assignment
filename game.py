@@ -1,8 +1,6 @@
 from colorama import Fore, Style
 
 # Function to print the Tic Tac Toe board with colored symbols
-
-
 def print_board(board):
     """
     Prints the current state of the board with colors for X and O.
@@ -18,8 +16,6 @@ def print_board(board):
         print("-" * 9)
 
 # Function to check if there's a winner or a draw
-
-
 def check_winner(board):
     """
     Checks the board for a winner (X or O) or a draw.
@@ -50,8 +46,6 @@ def check_winner(board):
     return "Draw"
 
 # Function to calculate the best move for the AI using the Minimax algorithm
-
-
 def ai_move(board):
     """
     Calculates the best move for the AI using the Minimax algorithm.
@@ -105,8 +99,6 @@ def ai_move(board):
     return best_move
 
 # Main game function
-
-
 def tic_tac_toe():
     """
     Runs the Tic Tac Toe game, allowing the user to play either:
